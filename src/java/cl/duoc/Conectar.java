@@ -25,9 +25,9 @@ public class Conectar {
     public String username = "root";
 
     // Clave de usuario DUOC
-    public String password = "root";
+    // public String password = "root";
     // Clave de usuario RODPOBA
-    // public String password = "sql";
+    public String password = "sql";
 
     public Connection conectarMySQL() {
         Connection conn = null;
